@@ -1,0 +1,39 @@
+body
+{
+	background-image: url("back2.jpg");
+
+}
+
+.nav {
+    background-color: #F5F5F5;
+}
+.Main
+{
+	font-size: 80px;
+	animation: type 2s steps(27);
+	overflow:hidden;
+	white-space:nowrap;
+     width:27ch;
+     border-right:4px  solid black;
+}
+
+@keyframes type
+{
+	0% {
+		width:0ch;
+	}
+	
+	100% {
+		width:27ch;
+	}
+}
+.id2
+{
+	width: 50%;
+	height:50%;
+}
+.id3{
+
+	width: 50%;
+	height:50%;
+}
